@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cobertura de código
+coverage/
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Resultados de pruebas
+test-results/
+
+# Base de datos SQLite (opcional)
+*.sqlite
