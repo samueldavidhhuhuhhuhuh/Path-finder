@@ -1,7 +1,4 @@
-/**
- * Single Responsibility Principle (SRP)
- * Clase responsable únicamente de transformar datos de mapas
- */
+
 class MapDataTransformer {
   static toCreateDTO(data) {
     const width = data.dimensions?.width || data.width;

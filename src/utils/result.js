@@ -1,7 +1,4 @@
-/**
- * Manejo de Errores usando Monads
- * Result Monad para manejar errores de forma funcional
- */
+ 
 class Result {
   constructor(isError, value, error) {
     this.isError = isError;

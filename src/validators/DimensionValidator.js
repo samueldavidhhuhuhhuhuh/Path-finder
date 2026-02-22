@@ -1,7 +1,4 @@
-/**
- * Single Responsibility Principle (SRP)
- * Clase responsable únicamente de validar dimensiones de mapas
- */
+
 class DimensionValidator {
   static validate(width, height) {
     if (!width || !height) {

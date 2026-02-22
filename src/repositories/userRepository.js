@@ -1,8 +1,4 @@
-/**
- * Liskov Substitution Principle (LSP)
- * UserRepository mantiene la misma firma que MapRepository
- * Puede sustituirse por cualquier repositorio que implemente las interfaces
- */
+
 const IReadRepository = require('../interfaces/IReadRepository');
 const IWriteRepository = require('../interfaces/IWriteRepository');
 

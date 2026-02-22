@@ -1,6 +1,4 @@
-/**
- * ObstacleService refactorizado con Result Monad
- */
+
 const Result = require('../utils/result');
 
 class ObstacleService {

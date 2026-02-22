@@ -1,8 +1,4 @@
-/**
- * Open/Closed Principle (OCP) - EJEMPLO
- * Nueva estrategia de pathfinding (Dijkstra) agregada sin modificar código existente
- * Esto demuestra que el sistema está abierto para extensión pero cerrado para modificación
- */
+
 const IPathfindingStrategy = require('../interfaces/IPathfindingStrategy');
 
 class DijkstraStrategy extends IPathfindingStrategy {

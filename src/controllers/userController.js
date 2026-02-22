@@ -1,6 +1,4 @@
-/**
- * UserController con Result Monad
- */
+
 class UserController {
   constructor(userService) {
     this.userService = userService;

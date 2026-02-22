@@ -1,10 +1,4 @@
-/**
- * Dependency Inversion Principle (DIP)
- * MapService depende de abstracciones (interfaces) no de implementaciones concretas
- * 
- * Single Responsibility Principle (SRP)
- * Delegamos validación y transformación a clases especializadas
- */
+
 const Result = require('../utils/result');
 const MapDataValidator = require('../validators/MapDataValidator');
 const MapDataTransformer = require('../transformers/MapDataTransformer');

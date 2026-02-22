@@ -1,8 +1,4 @@
-/**
- * Open/Closed Principle (OCP)
- * AStarStrategy implementa la interfaz IPathfindingStrategy
- * Permite agregar nuevas estrategias sin modificar el código existente
- */
+
 const IPathfindingStrategy = require('../interfaces/IPathfindingStrategy');
 
 const heuristic = (a, b) => Math.abs(a.x - b.x) + Math.abs(a.y - b.y);

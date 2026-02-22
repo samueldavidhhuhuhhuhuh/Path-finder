@@ -1,7 +1,4 @@
-/**
- * Dependency Inversion Principle (DIP) + Open/Closed Principle (OCP)
- * RouteService depende de abstracciones y usa estrategias intercambiables
- */
+ 
 const Result = require('../utils/result');
 const pathfindingStrategyFactory = require('../strategies/pathfindingStrategyFactory');
 const MapConfigValidator = require('../validators/MapConfigValidator');

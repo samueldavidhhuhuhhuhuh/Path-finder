@@ -1,6 +1,4 @@
-/**
- * WaypointController refactorizado con Result Monad
- */
+
 class WaypointController {
   constructor(waypointService) {
     this.waypointService = waypointService;

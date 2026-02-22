@@ -1,6 +1,4 @@
-/**
- * RouteController con manejo de errores usando Result Monad
- */
+
 class RouteController {
   constructor(routeService) {
     this.routeService = routeService;
