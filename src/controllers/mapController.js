@@ -1,6 +1,4 @@
-/**
- * MapController con manejo de errores usando Result Monad
- */
+
 class MapController {
   constructor(mapService) {
     this.mapService = mapService;

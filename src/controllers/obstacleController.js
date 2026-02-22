@@ -1,6 +1,4 @@
-/**
- * ObstacleController refactorizado con Result Monad
- */
+
 class ObstacleController {
   constructor(obstacleService) {
     this.obstacleService = obstacleService;

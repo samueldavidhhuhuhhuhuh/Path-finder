@@ -1,6 +1,4 @@
-/**
- * RouteRepository refactorizado con LSP
- */
+
 const IReadRepository = require('../interfaces/IReadRepository');
 
 class RouteRepository extends IReadRepository {

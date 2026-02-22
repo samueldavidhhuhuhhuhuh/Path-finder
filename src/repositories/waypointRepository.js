@@ -1,6 +1,4 @@
-/**
- * WaypointRepository refactorizado con LSP
- */
+
 const IReadRepository = require('../interfaces/IReadRepository');
 
 class WaypointRepository extends IReadRepository {

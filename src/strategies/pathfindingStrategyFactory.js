@@ -1,8 +1,4 @@
-/**
- * Open/Closed Principle (OCP)
- * Factory para seleccionar estrategias de pathfinding
- * Permite agregar nuevas estrategias registrándolas en el factory
- */
+
 const aStarStrategy = require('./aStarStrategy');
 const dijkstraStrategy = require('./dijkstraStrategy');
 

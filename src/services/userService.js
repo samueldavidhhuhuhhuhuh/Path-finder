@@ -1,6 +1,4 @@
-/**
- * UserService con Result Monad y validaciones
- */
+ 
 const Result = require('../utils/result');
 
 class UserService {

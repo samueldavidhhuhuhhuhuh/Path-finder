@@ -1,7 +1,4 @@
-/**
- * Single Responsibility Principle (SRP)
- * Clase responsable únicamente de validar datos de entrada para mapas
- */
+ 
 const DimensionValidator = require('./DimensionValidator');
 
 class MapDataValidator {

@@ -1,6 +1,4 @@
-/**
- * ObstacleRepository refactorizado con LSP
- */
+
 const IReadRepository = require('../interfaces/IReadRepository');
 
 class ObstacleRepository extends IReadRepository {
